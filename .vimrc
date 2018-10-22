@@ -56,7 +56,11 @@ set smarttab             " 在行和段开始处使用制表符
 set nowrap               " 禁止折行
 set backspace=2          " 使用回车键正常处理indent,eol,start等
 set sidescroll=10        " 设置向右滚动字符数
-set nofoldenable         " 禁用折叠代码
+" set nofoldenable         " 禁用折叠代码
+set foldmethod=indent   " 设置缩进折叠
+set foldlevel=99        " 设置折叠层数
+nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
+                        " 用空格键来开关折叠
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 代码补全
@@ -233,6 +237,7 @@ nnoremap <leader>r :ReplaceTo<space>
 " nerdtree
 nnoremap <silent> <leader>n :NERDTreeToggle<cr>
 inoremap <silent> <leader>n <esc> :NERDTreeToggle<cr>
+let g:NERDTreeShowHidden=0
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
 let g:NERDTreePatternMatchHighlightFullName = 1
