@@ -19,6 +19,8 @@ An automatic configuration program for vim
 
     ```bash
     git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+    cd ~/.vim/plugged/YouCompleteMe
+    git submodule update --init --recursive
     cd ~/.vimplus
     ./install.sh
     ```
