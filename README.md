@@ -18,7 +18,7 @@ An automatic configuration program for vim
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+    git clone https://github.com/droidzf/vimplus.git ~/.vimplus
     cd ~/.vim/plugged/YouCompleteMe
     git submodule update --init --recursive
     cd ~/.vimplus
@@ -34,7 +34,7 @@ An automatic configuration program for vim
 - 安装vimplus(建议在普通用户下安装)
 
     ```bash
-    git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+    git clone https://github.com/droidzf/vimplus.git ~/.vimplus
     cd ~/.vimplus
     ./install.sh
     ```
@@ -48,7 +48,7 @@ An automatic configuration program for vim
 - 安装vimplus(建议在普通用户下安装)
 
     ```bash
-    git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+    git clone https://github.com/droidzf/vimplus.git ~/.vimplus
     cd ~/.vimplus
     ./install.sh
     ```
@@ -58,7 +58,7 @@ An automatic configuration program for vim
 - 安装vimplus
 
     ```bash
-    git clone https://github.com/chxuan/vimplus.git ~/.vimplus
+    git clone https://github.com/droidzf/vimplus.git ~/.vimplus
     cd ~/.vimplus
     ./install.sh
     ```
